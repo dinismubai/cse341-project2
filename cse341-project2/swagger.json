@@ -5,11 +5,11 @@
     "description": "Cars Api",
     "version": "1.0.0"
   },
-  "host": "localhost:3001",
+  "host": "cse341-node-zjc2.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": ["https"],
 
-  
+
   "paths": {
     "/": {
       "get": {
