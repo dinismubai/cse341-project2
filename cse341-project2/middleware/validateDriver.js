@@ -5,7 +5,7 @@ const saveDriver = (req, res, next) => {
         firstName: 'required|string',
         lastName: 'required|string',
         birthday: 'required|string',
-        yearsDriving: 'required|int',
+        yearsDriving: 'required|integer',
         email: 'required|string',
         phone: 'required|string',
         licenseNumber: 'required|string'

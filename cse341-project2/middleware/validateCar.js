@@ -5,7 +5,7 @@ const saveCar = (req, res, next) => {
         make: 'required|string',
         model: 'required|string',
         color: 'required|string',
-        numberOfseats: 'required|int',
+        numberOfseats: 'required|integer',
         fuelType: 'required|string'
     };
 
